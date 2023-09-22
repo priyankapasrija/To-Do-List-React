@@ -1,10 +1,10 @@
-import MainSection from "./components/MainSection.jsx"
+import MainSection from "./components/MainSection.jsx";
+import Header from "./components/header.jsx";
 
 function App() {
   return (
     <>
-      <div>Hello world!</div>
-{/*       <Header /> */}
+      <Header />
       <MainSection />
     </>
   );
