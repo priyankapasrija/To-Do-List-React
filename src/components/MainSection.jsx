@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./mainSection.css";
-// import Form from " ./Form.jsx";
 
 function MainSection() {
   const [todos, setTodos] = useState(() => {
@@ -34,7 +33,6 @@ function MainSection() {
         ...todos,
         {
           // setting a basic id to identify the object
-          // id: todos.length + 1,
           id: new Date(),
           // set a text property to the value of the todo state and
           // trim the whitespace from the input
@@ -43,7 +41,6 @@ function MainSection() {
       ]);
     }
 
-    // clear out the input box
     setTodo("");
   }
 
