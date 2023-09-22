@@ -1,0 +1,47 @@
+/* form {
+    margin-auto
+} */
+
+body {
+  background-color: rgb(237, 211, 177);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+button[type="submit"] {
+  padding: 0.2rem 1.2rem;
+  border-radius: 3px;
+  border: 1px solid rgb(2, 48, 50);
+  background-color: cadetblue;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+li {
+  border: 1px solid rgb(71, 15, 15);
+  border-radius: 3px;
+  background-color: rgb(237, 237, 237);
+  padding: 0.2rem 1rem;
+  width: 27rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#delete-btn {
+  padding: 0 0.5rem;
+  background-color: rgb(247, 206, 247);
+  border-radius: 3px;
+  border: 1px solid black;
+}
